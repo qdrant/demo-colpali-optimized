@@ -5,12 +5,12 @@ This repository demonstrates how to optimize **ColPali-based PDF retrieval** usi
 ## Repository Structure
 
 
-- ColPali as a reranker I.ipynb
+- **`ColPali as a reranker I.ipynb`**
   Covers the initial setup and data preparation:
   - Combining ViDoRe, UFO, and DocVQA datasets into a single collection.
   - Uploading vectors to a Qdrant collection.
 
-- ColPali as a reranker II.ipynb
+- **`ColPali as a reranker II.ipynb`**
   Focuses on retrieval experiments:
   - Using pooled vectors for first-stage retrieval and ColPali for reranking.
   - Comparing retrieval quality and speed between pooled and original vectors.
